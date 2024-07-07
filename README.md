@@ -6,4 +6,6 @@ cd django_todo
 python manage.py startapp todo_list
 
 pip install djangorestframework
+
+pip install psycopg2-binary
 ```
