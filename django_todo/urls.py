@@ -23,5 +23,5 @@ router = DefaultRouter()
 router.register(r'notes', NoteViewSet)
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('api/', include(router.urls)),
 ]
